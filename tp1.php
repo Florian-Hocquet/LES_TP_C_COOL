@@ -1,14 +1,5 @@
 <?php
-function start_page($title)
-{
-    echo ' <!DOCTYPE html> <html
-    lang="fr"><head><title>' . PHP_EOL . $title . '</title></head><body>' . PHP_EOL
-    ;
-};
-
-?>
-
-<?php
+include 'functions.inc.php';
 
 start_page('titre');
 
@@ -28,22 +19,6 @@ $jour = date('l F d, Y');
 $jour = date('d/m/Y', strtotime('2001-03-12'));
 $jour2 = date ('F d, Y, h:i a', strtotime('2001-03-12 22:16' ));
 echo $jour . '</br>' . $jour2;
-?>
-
-<form>
-    <input checked="checked" type="radio" name="op" value="*"/>*<br/>
-    <input type="radio" name="op" value="+"/>+<br/>
-    <input type="radio" name="op" value="-"/>-<br/>
-    <input type="radio" name="op" value="/"/>/<br/>
-</from>
-
-
-<?php
-
-function end_page()
-{
-    echo '</body></html>';
-};
 ?>
 
 <?php
