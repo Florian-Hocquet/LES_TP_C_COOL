@@ -6,47 +6,31 @@ function start_page($title)
     ;
 };
 
-?>
-
-<?php
-
 start_page('titre');
 
-?>
 
 <hr/><br/><strong>Test</strong><br/><hr/>
 
-<?php
 //echo date('l F d, Y');
-?>
 
-<?php
 $jour = date('l F d, Y');
-?>
 
-<?php
 $jour = date('d/m/Y', strtotime('2001-03-12'));
 $jour2 = date ('F d, Y, h:i a', strtotime('2001-03-12 22:16' ));
 echo $jour . '</br>' . $jour2;
-?>
 
 
-<?php
+<input checked="checked" type="radio" name="op" value="*"/>*<br/>
+<input type="radio" name="op" value="+"/>+<br/>
+<input type="radio" name="op" value="-"/>-<br/>
+<input type="radio" name="op" value="/"/>/<br/>
 
 function end_page()
 {
     echo '</body></html>';
 };
-?>
-
-<?php
 
 end_page();
-
-?>
-
-
-<?php
 
 //echo'<strong>VoicimonpremierprogrammePHP</strong><br/>'."\n";echo'C\'estpasmalnon?<br/>';
 //$var1=6; // déclaration
