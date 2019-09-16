@@ -30,12 +30,14 @@ $jour2 = date ('F d, Y, h:i a', strtotime('2001-03-12 22:16' ));
 echo $jour . '</br>' . $jour2;
 ?>
 
-<?php
-<input checked="checked" type="radio" name="op" value="*"/>*<br/>;
-<input type="radio" name="op" value="+"/>+<br/>;
-<input type="radio" name="op" value="-"/>-<br/>;
-<input type="radio" name="op" value="/"/>/<br/>;
-?>
+<form>
+    <input checked="checked" type="radio" name="op" value="*"/>*<br/>;
+    <input type="radio" name="op" value="+"/>+<br/>;
+    <input type="radio" name="op" value="-"/>-<br/>;
+    <input type="radio" name="op" value="/"/>/<br/>;
+</from>
+
+
 <?php
 
 function end_page()
