@@ -10,6 +10,8 @@ $operateurs = '*+-/';
 ?>
 
     <form action="calcul.php" method="post">
+        <input type="text" name="op1"/><br/>
+        <input type="text" name="op1"/><br/>
         <?php
         for($cpt = 0 ; $cpt <= 3 ; ++$cpt)
         {
