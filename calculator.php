@@ -5,6 +5,10 @@ start_page('titre');
 
 ?>
 
+<?php
+$operateurs = '*+-/';
+?>
+
     <form action="calcul.php" method="post">
         <?php
         for($cpt = 0 ; $cpt <= 3 ; ++$cpt)
