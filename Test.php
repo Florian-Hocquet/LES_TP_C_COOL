@@ -15,8 +15,15 @@ start_page('titre');
 ?>
 
 <?php
+
 function end_page()
 {
     echo '</body></html>';
 };
+?>
+
+<?php
+
+end_page();
+
 ?>
