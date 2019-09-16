@@ -14,10 +14,14 @@ $op = $_POST['op'];
 <?php
 if('*' == $op)
 {
+    echo $op1 * $op2;
 }
+
 elseif('+' == $op)
 {
+    echo $op1 + $op2;
 }
+
 else
 {
     echo '<br/><strong>opérateur ' . $op . ' non géré </strong>';
