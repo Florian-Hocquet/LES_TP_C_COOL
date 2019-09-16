@@ -25,6 +25,12 @@ else
 ?>
 
 <?php
+$operateurs = '*+-/';
+?>
+
+
+
+<?php
 
 end_page();
 
