@@ -13,7 +13,22 @@ function start_page($title)
 start_page('titre');
 
 ?>
+
 <hr/><br/><strong>Test</strong><br/><hr/>
+
+<?php
+echo date('l F d, Y');
+?>
+
+<?php
+$jour = date('l F d, Y');
+?>
+
+<?php
+$jour = date('d/m/Y', strtotime('2020-04-01'));
+?>
+
+
 <?php
 
 function end_page()
