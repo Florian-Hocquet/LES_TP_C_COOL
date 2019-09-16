@@ -31,12 +31,11 @@ echo $jour . '</br>' . $jour2;
 ?>
 
 <?php
-<input checked="checked" type="radio" name="op" value="*"/>*<br/>;
-<input type="radio" name="op" value="+"/>+<br/>;
-<input type="radio" name="op" value="-"/>-<br/>;
+<input checked="checked" type="radio" name="op" value="*"/>*<br/>
+<input type="radio" name="op" value="+"/>+<br/>
+<input type="radio" name="op" value="-"/>-<br/>
 <input type="radio" name="op" value="/"/>/<br/>;
 ?>
-
 <?php
 
 function end_page()
