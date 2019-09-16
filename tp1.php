@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
 <?php
 
-
-
-
-<?php
 
 echo'<strong>VoicimonpremierprogrammePHP</strong><br/>'."\n";echo'C\'estpasmalnon?<br/>';
 $var1=6; // déclaration
@@ -23,6 +11,3 @@ echo$var1+$var2; // addition de 6 et 1,3
 echo $var1 + $var3; // erreur 6 + Variable3 0
 
 ?>
-
-</body>
-</html>
