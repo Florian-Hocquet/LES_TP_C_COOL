@@ -1,4 +1,15 @@
 <?php
+
+function start_page($title)
+{
+    echo ' <!DOCTYPE html> <html
+lang="fr"><head><title>' . PHP_EOL . $title . '</title></head><body>' . PHP_EOL
+    ;
+};
+
+start_page('titre');
+
+Créez un fichier PHP qui
 echo'<strong>VoicimonpremierprogrammePHP</strong><br/>'."\n";echo'C\'estpasmalnon?<br/>';
 $var1=6;
 $var2=1.3;
