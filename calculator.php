@@ -14,8 +14,7 @@ start_page('titre');
             {
                 echo 'checked="checked" ';
             }
-            echo 'type="radio" name="op" value="' . $operateurs[$cpt] . '"/>' . $op
-erateurs[$cpt] . ' <br/>' . "\n";
+            echo 'type="radio" name="op" value="' . $operateurs[$cpt] . '"/>' . $operateurs[$cpt] . ' <br/>' . "\n";
 }
         ?>
     </form>
