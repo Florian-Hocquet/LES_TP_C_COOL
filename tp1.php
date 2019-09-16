@@ -1,5 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
 
+<?php
 
 function start_page($title)
 {
@@ -29,3 +36,6 @@ echo$var1+$var2;
 echo $var1 + $var3;
 
 ?>
+
+</body>
+</html>
