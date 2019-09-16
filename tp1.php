@@ -17,11 +17,15 @@ start_page('titre');
 <hr/><br/><strong>Test</strong><br/><hr/>
 
 <?php
+//echo date('l F d, Y');
+?>
+
+<?php
 $jour = date('l F d, Y');
 ?>
 
 <?php
-$jour = date('d/m/Y', strtotime('2020-03-12'));
+$jour = date('d/m/Y', strtotime('2001-03-12'));
 $jour2 = date ('F d, Y, h:i a', strtotime('2001-03-12 22:16' ));
 echo $jour . '</br>' . $jour2;
 ?>
