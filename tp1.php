@@ -31,10 +31,10 @@ echo $jour . '</br>' . $jour2;
 ?>
 
 <form>
-    <input checked="checked" type="radio" name="op" value="*"/>*<br/>;
-    <input type="radio" name="op" value="+"/>+<br/>;
-    <input type="radio" name="op" value="-"/>-<br/>;
-    <input type="radio" name="op" value="/"/>/<br/>;
+    <input checked="checked" type="radio" name="op" value="*"/>*<br/>
+    <input type="radio" name="op" value="+"/>+<br/>
+    <input type="radio" name="op" value="-"/>-<br/>
+    <input type="radio" name="op" value="/"/>/<br/>
 </from>
 
 
