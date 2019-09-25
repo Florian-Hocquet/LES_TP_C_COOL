@@ -4,8 +4,8 @@ include 'utils.inc.php';
 
 <form action="data-processing.php" method="post">
     <input type="text" name="Id" value="Identifiant"/><br/><br/>
-    <input type="radio" name="Sexe" value="Homme"/> Homme <br/>
-    <input type="radio" name="Sexe" value="Femme"/> Femme <br/><br/>
+    <input type="radio" name="civil" value="Homme"/> Homme <br/>
+    <input type="radio" name="civil" value="Femme"/> Femme <br/><br/>
     <input type="text" name="E-mail" value="E-mail"/><br/><br/>
     <input type="password" name="Mdp" value="Mot de passe"/><br/>
     <input type="password" name="Mdp" value="Mot de passe"/><br/><br/>

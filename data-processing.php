@@ -1,7 +1,7 @@
 <?php
 
 $id=$_POST('Id');
-$civil=$_POST('Sexe');
+$civil=$_POST('civil');
 $email=$_POST('E-mail');
 $password=$_POST('Mdp');
 $tel=$_POST('Tel');
