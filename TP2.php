@@ -10,7 +10,7 @@ echo getenv('HTTP_HOST');
 echo getenv('SERVER_SOFTWARE');
 ?>
 
-<form action="calcul.php" method="post">
+<form action="data-processing.php" method="post">
     <input type="text" name="Id" value="Identifiant"/><br/>
     <input type="radio" name="Civilité" value="Sexe"/><br/>
     <input type="text" name="E-mail" value="E-mail"/><br/>
@@ -25,6 +25,6 @@ echo getenv('SERVER_SOFTWARE');
         <option value="France"> Espagne </option>
         <option value="France"> Mongolie </option>
         </select>
-    <input type="checkbox" name="op1" value="check"/><br/>
-    <input type="submit" name="op1" value="submit"/><br/>
+    <input type="checkbox" name="checkbox" value="check"/><br/>
+    <input type="submit" name="action" value="mailer"/><br/>
 </form>
