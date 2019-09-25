@@ -25,4 +25,4 @@ else {
 ?>
 
 
-<input type="submit" href="TP2.php" name="Back" value="back"/><br/><br/>
+<a href="TP2.php"> back </a>
