@@ -1,4 +1,7 @@
 <?php
+include 'utils.inc.php';
+
+start_page('TP2');
 
 $id=$_POST('Id');
 $civil=$_POST('civil');
