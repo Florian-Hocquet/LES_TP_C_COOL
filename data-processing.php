@@ -2,7 +2,7 @@
 
 $id=$_POST('Id');
 $civil=$_POST('civil');
-$email=$_POST('E-mail');
+$email=$_POST('email');
 $password=$_POST('Mdp');
 $tel=$_POST('Tel');
 $nomPays=$_POST('NomPays');

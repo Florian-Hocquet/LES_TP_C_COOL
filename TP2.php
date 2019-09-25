@@ -6,7 +6,7 @@ include 'utils.inc.php';
     <input type="text" name="Id" value="Identifiant"/><br/><br/>
     <input type="radio" name="civil" value="Homme"/> Homme <br/>
     <input type="radio" name="civil" value="Femme"/> Femme <br/><br/>
-    <input type="text" name="E-mail" value="E-mail"/><br/><br/>
+    <input type="text" name="email" value="Email"/><br/><br/>
     <input type="password" name="Mdp" value="Mot de passe"/><br/>
     <input type="password" name="Mdp" value="Mot de passe"/><br/><br/>
     <input type="text" name="Tel" value="Téléphone"/><br/><br/>
