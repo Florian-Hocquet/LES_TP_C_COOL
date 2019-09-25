@@ -23,3 +23,6 @@ else {
     echo '<br/><strong>Bouton non géré !</strong><br/>';
 }
 ?>
+
+
+<input type="submit" href="TP2.php" name="Back" value="back"/><br/><br/>
