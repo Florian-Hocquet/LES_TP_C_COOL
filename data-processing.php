@@ -25,4 +25,4 @@ else {
 ?>
 
 
-<a href="TP2.php"> back </a>
+<a href="TP2.php"> back </a> <br/>
