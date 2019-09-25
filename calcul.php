@@ -19,7 +19,7 @@ if('*' == $op)
 
 elseif('+' == $op)
 {
-    echo $op1 + $op2;
+    echo $op1 ++ $op2;
 }
 
 else
