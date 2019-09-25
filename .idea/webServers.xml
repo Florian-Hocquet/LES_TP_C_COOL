@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="10d6aa81-8467-4309-a5ea-d13cf431fe3b" name="alwaysdata" url="http://florianhocquet.alwaysdata.net">
+        <fileTransfer host="ssh-florianhocquet.alwaysdata.net" port="22" rootFolder="/home/florianhocquet" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
