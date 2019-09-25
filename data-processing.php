@@ -9,13 +9,11 @@ $nomPays=$_POST('NomPays');
 $checkbox=$_POST('Checkbox');
 $action=$_POST('action');
 
-$message = 'Voici vos identifiants d\'inscription :' . PHP_EOL;
-$message .= 'Email : ' . $email . PHP_EOL;
-$message .= 'Mot de passe : ' . PHP_EOL . $password;
-
 if($action == 'mailer')
 {
-
+    $message = 'Voici vos identifiants d\'inscription :' . PHP_EOL;
+    $message .= 'Email : ' . $email . PHP_EOL;
+    $message .= 'Mot de passe : ' . PHP_EOL . $password;
 }
 
 else {
