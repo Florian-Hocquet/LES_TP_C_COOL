@@ -1,17 +1,16 @@
 <?php
 include 'utils.inc.php';
-include 'data-processing.php';
 ?>
 
 <form action="data-processing.php" method="post">
     <input type="text" name="Id" value="Identifiant"/><br/><br/>
-    <input type="radio" name="Civilité" value="Homme"/> Homme <br/>
-    <input type="radio" name="Civilité" value="Femme"/> Femme <br/><br/>
+    <input type="radio" name="Sexe" value="Homme"/> Homme <br/>
+    <input type="radio" name="Sexe" value="Femme"/> Femme <br/><br/>
     <input type="text" name="E-mail" value="E-mail"/><br/><br/>
-    <input type="password" name="mdp" value="Mot de passe"/><br/>
-    <input type="password" name="mdp" value="Mot de passe"/><br/><br/>
-    <input type="text" name="tel" value="Téléphone"/><br/><br/>
-    <select name="Nom Pays">
+    <input type="password" name="Mdp" value="Mot de passe"/><br/>
+    <input type="password" name="Mdp" value="Mot de passe"/><br/><br/>
+    <input type="text" name="Tel" value="Téléphone"/><br/><br/>
+    <select name="NomPays">
         <option value="France"> France </option>
         <option value="France"> Italie </option>
         <option value="France"> Royaume-Uni </option>
