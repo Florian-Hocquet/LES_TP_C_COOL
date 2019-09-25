@@ -25,4 +25,5 @@ else {
 ?>
 
 
+<a> votre mail a bien été envoyé</a> <br/>
 <a href="TP2.php"> back </a> <br/>
