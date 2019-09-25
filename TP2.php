@@ -25,6 +25,6 @@ echo getenv('SERVER_SOFTWARE');
         <option value="France"> Espagne </option>
         <option value="France"> Mongolie </option>
         </select>
-    <input type="checkbox" name="op1" value="values 2"/><br/>
-    <input type="submit" name="op1" value="values 2"/><br/>
+    <input type="checkbox" name="op1" value="check"/><br/>
+    <input type="submit" name="op1" value="submit"/><br/>
 </form>
