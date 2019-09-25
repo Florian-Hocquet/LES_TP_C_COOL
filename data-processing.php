@@ -3,7 +3,6 @@ include 'utils.inc.php';
 
 start_page('TP2');
 
-$id=$_POST('Id');
 $civil=$_POST('civil');
 $email=$_POST('email');
 $password=$_POST('Mdp');
