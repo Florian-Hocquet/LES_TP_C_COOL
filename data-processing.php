@@ -3,13 +3,14 @@ include 'utils.inc.php';
 
 start_page('TP2');
 
-$civil=$_POST('civil');
-$email=$_POST('email');
-$password=$_POST('Mdp');
-$tel=$_POST('Tel');
-$nomPays=$_POST('NomPays');
-$checkbox=$_POST('Checkbox');
-$action=$_POST('action');
+$id=$_POST['Id'];
+$civil=$_POST['civil'];
+$email=$_POST['email'];
+$password=$_POST['Mdp'];
+$tel=$_POST['Tel'];
+$nomPays=$_POST['NomPays'];
+$checkbox=$_POST['Checkbox'];
+$action=$_POST['action'];
 
 if($action == 'mailer')
 {
