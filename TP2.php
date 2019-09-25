@@ -10,10 +10,6 @@ echo getenv('HTTP_HOST');
 echo getenv('SERVER_SOFTWARE');
 ?>
 
-<?php
-phpinfo();
-?>
-
 <form action="calcul.php" method="post">
     <input type="text" name="Id" values="Identifiant"/><br/>
     <input type="radio " name="Civilité" values="Sexe"/><br/>
