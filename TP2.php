@@ -10,3 +10,4 @@ echo getenv('HTTP_HOST');
 echo getenv('SERVER_SOFTWARE');
 ?>
 
+phpinfo();
