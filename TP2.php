@@ -20,4 +20,5 @@ include 'utils.inc.php';
         </select><br/>
     <input type="checkbox" name="checkbox" value="check"/><br/><br/>
     <input type="submit" name="action" value="mailer"/><br/>
+
 </form>

@@ -1,12 +1,7 @@
 <?php
-$dbLink = mysqli_connect(dbHost, dbLogin, dbPass)
-or die('Erreur de connexion au serveur : ' . mysqli_connect_error());
-
-mysqli_select_db($dbLink , dbBd)
-or die('Erreur dans la sélection de la base : ' . mysqli_error($dbLink));
+require('base.inc.php');
 
 $query = 'SELECT id, email, date FROM user';
-
 
 if (!($dbResult = mysqli_query($dbLink, $query))) {
     echo 'Erreur de requête<br/>';
@@ -16,4 +11,14 @@ if (!($dbResult = mysqli_query($dbLink, $query))) {
     echo 'Requête : ' . $query . '<br/>';
     exit();
 }
+
+while($dbRow=mysqli_fetch_assoc($dbResult)){
+    echo$dbRow['id'].'<br/>';
+    echo$dbRow['email'].'<br/>';
+    echo date('d.m.Y',strtotime($dbRow['date']));
+    echo'<br/><br/>';
+}
+
+echo 'Bonjour, Mickaël' . '<br/>'
+    . 'Votre inscription a bien été enregistrée, merci.';
 ?>
